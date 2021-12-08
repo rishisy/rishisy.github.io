@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header><h1>Book a Flight to Japan</h1></header>
+
+
+    <style>
+        header {background-color: #A0E7E5;}
+        body {background-color: #FFFFFF;
+        }
+        h1{font-family: verdana;
+            text-align:center}
+        p{font-family: verdana;
+            border: 2px solid powderblue;
+            padding: 30px;}
+        img {border:2px solid powderblue ;
+            padding: 15px;}
+
+        p1{font-family: verdana;
+            }
+
+    </style>
+
+</head>
+
+
+<body>
+    <fieldset>
+    <h2>Flight details</h2>
+    <p style="text-align: center;">
+        <b>TYPE : </b>
+        <input type="radio" name="flighttype" id="1">  Round Trip
+        <input type="radio" name="flighttype" id="1">  One Way Trip
+        <input type="radio" name="flighttype" id="1">  Muli-Cities
+    </p>
+    <p style="text-align: center;"><b>From :  </b>
+        <select name="car" id "1" form="form_id">
+            <option value="volvo">Airport 1</option>
+            <option value="saab">Airport 2</option>
+            <option value="opel">Airport 3</option>
+            <option value="audi">Airport 4</option>
+        </select>
+        <b>To : </b>
+        <select name="car" id="1" form="form_id">
+            <option value="volvo">Airport 1</option>
+            <option value="saab">Airport 2</option>
+            <option value="opel">Airport 3</option>
+            <option value="audi">Airport 4</option>
+        </select>
+        
+        </select>
+        <b>Airline : </b> 
+        <select name="car" id "1" form="form_id">
+            <option value="volvo">AirAsia</option>
+            <option value="saab">JetAirways</option>
+            <option value="opel">Qatar</option>
+        </select>
+
+
+    </p>
+    <p style="text-align: center;"> Departure :
+        <input type="date" id="depdate" name="depdate">
+        Return:
+        <input type="date" id="retdate" name="retdate">
+    </p>
+    </fieldset>
+    <br>
+    <form>
+        <fieldset>
+            <h2>Contact Info</h2>
+        <p> First Name <input type="text" name="fName"></p>
+        <p> Last Name <input type="text" name="lName"></p>
+        <p>Gender : 
+                Male <input type="radio" name="Gender" id="">
+                Female <input type="radio" name="Gender" id=""></p>
+        <p>Phone: <input type="number"  name="phone"></p>
+        <p>Email: <input type="email"  name="mailid"  ></p>
+        </fieldset>
+    </form>
+    <BR>
+
+    <fieldset>
+    <h2>Payment info</h2>
+    <p>Name on Card :<input type="text" ></p>
+    <p>Card Number : <input type="number"</p>
+    <p>expire date : <input type="date" name="" id=""></p>
+    <p>CVV : <input type="password">
+    </fieldset>
+    <input type="submit" value="Submit"
+
+
+    
+</body>
+</html>
