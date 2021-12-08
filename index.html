@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Japan</title>
-    <header>
-        <h1> --  Colorful Cities in Japan --</h1> 
-    </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header><h1>Book a Flight to Japan</h1></header>
 
 
     <style>
         header {background-color: #A0E7E5;}
-        body {background-color: #FFFFFF;}
+        body {background-color: #FFFFFF;
+        }
         h1{font-family: verdana;
             text-align:center}
         p{font-family: verdana;
@@ -20,60 +22,77 @@
 
         p1{font-family: verdana;
             }
+
     </style>
 
 </head>
 
+
 <body>
-    
-    <p>Japan is home to strikingly diverse landscapes, including volcanic mountains, flat farmlands and cherry blossom-lined cities. Combine these backdrops with Japan’s Edo-period buildings, grand temples and shrines and the result is simply spectacular.</p>
+    <fieldset>
+    <h2>Flight details</h2>
+    <p style="text-align: center;">
+        <b>TYPE : </b>
+        <input type="radio" name="flighttype" id="1">  Round Trip
+        <input type="radio" name="flighttype" id="1">  One Way Trip
+        <input type="radio" name="flighttype" id="1">  Muli-Cities
+    </p>
+    <p style="text-align: center;"><b>From :  </b>
+        <select name="car" id "1" form="form_id">
+            <option value="volvo">Airport 1</option>
+            <option value="saab">Airport 2</option>
+            <option value="opel">Airport 3</option>
+            <option value="audi">Airport 4</option>
+        </select>
+        <b>To : </b>
+        <select name="car" id="1" form="form_id">
+            <option value="volvo">Airport 1</option>
+            <option value="saab">Airport 2</option>
+            <option value="opel">Airport 3</option>
+            <option value="audi">Airport 4</option>
+        </select>
+        
+        </select>
+        <b>Airline : </b> 
+        <select name="car" id "1" form="form_id">
+            <option value="volvo">AirAsia</option>
+            <option value="saab">JetAirways</option>
+            <option value="opel">Qatar</option>
+        </select>
 
 
-    <img style="padding: 2px;" src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/m3tdw1.jpg" alt="Karuizawa" width = "23%">
-
-    <img style="padding: 2px;" src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/tbaa7y.jpg" alt="Sendai" width = "23%">
-    <img style="padding: 2px;" src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/jgfkek.jpg" alt="himeji" width = "23%">
-
-    <img style="padding: 2px;" src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/hhnt6h.jpg" alt="Shirakawa-go" width = "23%">
-
-    <h3>1 . Karuizawa</h3>
-
-    <p1>Karuizawa is a charming resort town tucked beneath the imposing Mt. Asama, one of Honshū’s most active volcanoes. It’s a popular day trip from Tokyo – an hour away by high-speed train – for hiking and visiting hot springs and Yacho-no-mori (Wild Bird Forest), which is home to over 60 different bird species.</p1>
+    </p>
+    <p style="text-align: center;"> Departure :
+        <input type="date" id="depdate" name="depdate">
+        Return:
+        <input type="date" id="retdate" name="retdate">
+    </p>
+    </fieldset>
     <br>
+    <form>
+        <fieldset>
+            <h2>Contact Info</h2>
+        <p> First Name <input type="text" name="fName"></p>
+        <p> Last Name <input type="text" name="lName"></p>
+        <p>Gender : 
+                Male <input type="radio" name="Gender" id="">
+                Female <input type="radio" name="Gender" id=""></p>
+        <p>Phone: <input type="number"  name="phone"></p>
+        <p>Email: <input type="email"  name="mailid"  ></p>
+        </fieldset>
+    </form>
+    <BR>
 
+    <fieldset>
+    <h2>Payment info</h2>
+    <p>Name on Card :<input type="text" ></p>
+    <p>Card Number : <input type="number"</p>
+    <p>expire date : <input type="date" name="" id=""></p>
+    <p>CVV : <input type="password">
+    </fieldset>
+    <input type="submit" value="Submit"
 
-    <img src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/m3tdw1.jpg" alt="Karuizawa" width = "95%">
-    <hr>
-
-    <a href="https://maps.google.com/?q=Karuizawa,+Kitasaku+District,+Nagano,+Japan&ftid=0x601dd23c3fc1a393:0x99118f4883da71f9" >Link to Google Maps:Visit Karuizawa
-    </a>
-
-    <h3>2 . Sendai</h3>
-    <p1>Head to Sendai – around 90 minutes from Tokyo by train – for beautiful cherry blossom scenes in the spring. This coastal metropolis is nicknamed the ‘City of Trees’ for its abundance of green spaces – Tsutsujigaoka Park is one of the best cherry blossom viewing spots with more than 360 trees.</p1>
-    <img src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/tbaa7y.jpg" alt="" width="95%">
-    <hr>
-    <a href="https://maps.google.com/?q=Sendai,+Miyagi,+Japan&ftid=0x5f8a2aee30cd55d3:0xba2579e0b846b1ee" >Link to Google Maps : Visit Sendai</a>
-
-
-    <h3>3 . Himeji</h3>
-    <p1>Discover one of Japan’s most impressive historical sites while visiting the coastal city of Himeji, around an hour from Kyoto and Osaka by train. The centuries-old Himeji Castle, with a grand white façade visible from miles, perches above the city and comprises 83 buildings.</p1>
-    <img src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/jgfkek.jpg" alt="himeji" width="95%">
-    <hr>
-    <a href="https://maps.google.com/?q=Himeji,+Hyogo,+Japan&ftid=0x3554e22d19ebd8d1:0xdbab934d716b0b69" >Link to Google Maps : Visit</a>
 
     
-    <h3>4 . Shirakawa-go</h3>
-    <p1>This remote village, a Unesco World Heritage site, looks like something out of a fairytale, with thatched Gassho-style houses surrounded by mountainous landscapes. These houses are traditional farm buildings, which were built between the 17th century and the beginning of the 20th century.</p1>
-    <img src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/02/hhnt6h.jpg" alt="Shirakawa-go" width="95%">
-    <hr>
-    <a href="https://maps.google.com/?cid=14755289620389823992" >Link to Google Maps : Visit</a>
-
-
-
-
-
-
-
 </body>
 </html>
-
